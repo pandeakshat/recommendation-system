@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "recommendation-system"
+version = "0.1.0"
+description = "Recommendation System"
+authors = ["Akshat Pande <mail@pandeakshat.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.38.0"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
